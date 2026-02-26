@@ -1,12 +1,478 @@
-<!-- Index File Content with Updated LinkedIn URL -->
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="dark">
 <head>
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sushrut Ingle | Computer Engineering Student & Developer</title>
+  <meta name="description" content="Computer Engineering Student | Developer | Problem Solver - Building technical foundations in software and engineering while exploring how technology creates leverage in finance.">
+  <meta name="author" content="Sushrut Ingle">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sushrutingle.github.io/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sushrutingle.github.io/">
+  <meta property="og:title" content="Sushrut Ingle | Computer Engineering Student">
+  <meta property="og:description" content="Building technical foundations in software and engineering while exploring how technology creates leverage in finance.">
+  <meta property="og:site_name" content="Sushrut Ingle Portfolio">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sushrut Ingle | Computer Engineering Student">
+  <meta name="twitter:description" content="Building technical foundations in software and engineering while exploring how technology creates leverage in finance.">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="msapplication-TileColor" content="#0a0a0a">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sushrut Ingle",
+    "url": "https://sushrutingle.github.io/",
+    "jobTitle": "Computer Engineering Student",
+    "description": "Computer Engineering Student | Developer | Problem Solver",
+    "sameAs": [
+      "https://www.linkedin.com/in/sushrut-ingle",
+      "https://www.github.com/sushrutingle"
+    ],
+    "knowsAbout": ["Programming", "Web Development", "Machine Learning", "Finance"]
+  }
+  </script>
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/sushrut-ingle">My LinkedIn Profile</a></p>
-    <!-- Other content here -->
+  <div class="page-loader">
+    <div class="loader-content"></div>
+  </div>
+
+  <!-- Contact Popup Overlay -->
+  <div class="contact-popup-overlay" id="contactOverlay"></div>
+
+  <!-- Contact Popup -->
+  <div class="contact-popup" id="contactPopup">
+    <button class="contact-popup-close" id="contactClose">
+      <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+        <path d="M18 6L6 18M6 6l12 12"/>
+      </svg>
+    </button>
+    <h3 class="contact-popup-title">Get in Touch</h3>
+    <p class="contact-popup-subtitle">Choose your preferred way to connect</p>
+    <div class="contact-options">
+      <a href="mailto:sushrutingle@gmail.com" class="contact-option">
+        <div class="contact-option-icon">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </div>
+        <div class="contact-option-text">
+          <div class="contact-option-label">Email</div>
+          <div class="contact-option-value">sushrutingle@gmail.com</div>
+        </div>
+      </a>
+      <a href="https://linkedin.com/in/sushrut-ingle" target="_blank" rel="noopener noreferrer" class="contact-option">
+        <div class="contact-option-icon">
+          <svg fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </div>
+        <div class="contact-option-text">
+          <div class="contact-option-label">LinkedIn</div>
+          <div class="contact-option-value">Connect professionally</div>
+        </div>
+      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer" class="contact-option">
+        <div class="contact-option-icon">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+        </div>
+        <div class="contact-option-text">
+          <div class="contact-option-label">Portfolio</div>
+          <div class="contact-option-value">View my projects</div>
+        </div>
+      </a>
+      <a href="https://github.com/sushrutingle" target="_blank" rel="noopener noreferrer" class="contact-option">
+        <div class="contact-option-icon">
+          <svg fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+        </div>
+        <div class="contact-option-text">
+          <div class="contact-option-label">GitHub</div>
+          <div class="contact-option-value">Explore my code</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-left">
+        <a href="#hero" class="nav-logo">SI</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <svg class="sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+          </svg>
+          <svg class="moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav">
+    <a href="#about">About</a>
+    <a href="#expertise">Expertise</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-wrapper">
+        <div class="hero-content">
+          <h1 class="hero-name">Sushrut Ingle</h1>
+          <p class="hero-headline">Computer Engineering Student | Developer | Problem Solver</p>
+          <p class="hero-intro">Building technical foundations in software and engineering while exploring how technology creates leverage in finance.</p>
+          <div class="hero-contact">
+            <a href="mailto:sushrutingle@gmail.com">sushrutingle@gmail.com</a>
+            <a href="https://linkedin.com/in/sushrut-ingle" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Portfolio</a>
+          </div>
+          <div class="hero-ctas">
+            <a href="#experience" class="btn btn-primary">View Work</a>
+            <a href="#" class="btn btn-secondary" id="contactBtn">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-gif">
+            <div class="hero-gif-placeholder">add sumn here bro</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="arrow"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">About</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-text reveal">
+          <p>Computer Engineering student with a strong foundation in programming and analytical problem-solving. Interested in software development and emerging technologies, while exploring how engineering can create leverage in finance, with a willingness to continuously learn and apply technical knowledge to real-world challenges. Seeking opportunities to gain practical industry experience and contribute to impactful projects.</p>
+        </div>
+        <div class="about-animation reveal">
+          <div class="hero-animation">
+            <div class="code-window">
+              <div class="window-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="window-body">
+                <div class="code-line">
+                  <span class="keyword">const</span> <span class="variable">developer</span> <span class="operator">=</span> <span class="bracket">{</span>
+                </div>
+                <div class="code-line indent">
+                  <span class="property">name:</span> <span class="string">"Sushrut"</span><span class="comma">,</span>
+                </div>
+                <div class="code-line indent">
+                  <span class="property">role:</span> <span class="string">"Engineer"</span><span class="comma">,</span>
+                </div>
+                <div class="code-line indent">
+                  <span class="property">passion:</span> <span class="string">"Building"</span><span class="comma">,</span>
+                </div>
+                <div class="code-line indent">
+                  <span class="property">status:</span> <span class="boolean">true</span>
+                </div>
+                <div class="code-line">
+                  <span class="bracket">}</span><span class="semicolon">;</span>
+                </div>
+                <div class="code-line cursor-line">
+                  <span class="cursor">|</span>
+                </div>
+              </div>
+            </div>
+            <div class="floating-shapes">
+              <div class="shape shape-1"></div>
+              <div class="shape shape-2"></div>
+              <div class="shape shape-3"></div>
+              <div class="shape shape-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Expertise Section -->
+  <section id="expertise">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Technical Expertise</h2>
+      </div>
+      <div class="expertise-grid">
+        <!-- Programming Languages -->
+        <div class="expertise-card">
+          <h3 class="expertise-title">Programming</h3>
+          <div class="expertise-divider"></div>
+          <div class="expertise-skills">
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              C
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              C++
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.053 5.56-5.023c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.94z"/></svg>
+              Java
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c4.418 0 8 3.582 8 8s-3.582 8-8 8-8-3.582-8-8 3.582-8 8-8z"/><path d="M12 2c4.418 0 8 3.582 8 8h-2c0-3.314-2.686-6-6-6V2z"/></svg>
+              Python
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              JavaScript
+            </span>
+          </div>
+        </div>
+
+        <!-- Frontend Development -->
+        <div class="expertise-card">
+          <h3 class="expertise-title">Frontend</h3>
+          <div class="expertise-divider"></div>
+          <div class="expertise-skills">
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              HTML5
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              CSS3
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Bootstrap
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              React
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Tailwind
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Next.js
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Figma
+            </span>
+          </div>
+        </div>
+
+        <!-- Backend & Databases -->
+        <div class="expertise-card">
+          <h3 class="expertise-title">Backend & DB</h3>
+          <div class="expertise-divider"></div>
+          <div class="expertise-skills">
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Node.js
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Express
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              MongoDB
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              MySQL
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Java
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              C
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              C++
+            </span>
+          </div>
+        </div>
+
+        <!-- AI/ML -->
+        <div class="expertise-card">
+          <h3 class="expertise-title">AI & ML</h3>
+          <div class="expertise-divider"></div>
+          <div class="expertise-skills">
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Python
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              TensorFlow
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              OpenCV
+            </span>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="expertise-card">
+          <h3 class="expertise-title">Tools</h3>
+          <div class="expertise-divider"></div>
+          <div class="expertise-skills">
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Figma
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Git
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Docker
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              Wix
+            </span>
+            <span class="expertise-pill">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"/></svg>
+              VS Code
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <h3 class="timeline-role">TekLingo Club</h3>
+          <p class="timeline-company">General Secretary</p>
+          <p class="timeline-date">April 2025 – Present</p>
+          <ul class="timeline-description">
+            <li>Led planning and execution of multiple events and workshops to promote language and tech skill engagement among members</li>
+            <li>Collaborated across teams to design and integrate solutions, enhancing systems, usability and scalability</li>
+            <li>Organized collaborative initiatives with other student groups, resulting in 600+ college community members</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="education-list">
+        <div class="education-item reveal">
+          <h3 class="education-degree">B.Tech, Computer Engineering</h3>
+          <p class="education-school">Vishwakarma University – Pune, Maharashtra</p>
+          <p class="education-date">07/2023 – Present</p>
+        </div>
+        <div class="education-item reveal">
+          <h3 class="education-degree">Higher Secondary (11th–12th) Science Stream</h3>
+          <p class="education-school">MTES Jr College – Pune, Maharashtra</p>
+          <p class="education-date">08/2021 – 02/2023</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Thank You Section -->
+  <section id="thankyou">
+    <div class="container">
+      <div class="thank-you reveal">
+        <h2 class="thank-you-title">Thank You</h2>
+        <p class="thank-you-text">Thank you for taking the time to go through all this. I'd love some feedback, but yeah — basically I'm a developer who loves building things and making them look great. I'm always exploring new ideas and pushing myself to learn as much as I can while I have the time.<br><br>Beyond tech, I'm also deeply interested in finance — understanding markets, investments, and how money moves in the world. I enjoy blending creativity, technology, and financial thinking to build meaningful solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-copy">Sushrut Ingle © 2026</p>
+        <div class="footer-links">
+          <a href="mailto:sushrutingle@gmail.com">Email</a>
+          <a href="https://linkedin.com/in/sushrut-ingle" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+    
 </body>
 </html>
