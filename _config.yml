@@ -1,0 +1,35 @@
+# Portfolio Configuration
+title: Portfolio
+description: A personal portfolio website
+author: sushrutingle
+email: your-email@example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# URL settings
+url: "https://sushrutingle.github.io"
+baseurl: "/portfolio"
+
+# Exclude files from build
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Include hidden files
+include:
+  - .nojekyll
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
