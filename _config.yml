@@ -9,7 +9,7 @@ markdown: kramdown
 theme: minima
 
 # URL settings
-url: "https://sushrutingle.me"
+url: "https://sushrutingle.github.io"
 baseurl: "/portfolio"
 
 # Exclude files from build
