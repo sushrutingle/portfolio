@@ -530,7 +530,6 @@
     .hero-gif {
       width: 100%;
       max-width: 450px;
-      aspect-ratio: 1;
       border-radius: 16px;
       background: var(--bg-surface);
       border: 1px solid var(--border-color);
@@ -549,7 +548,8 @@
     .hero-gif video {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
+      background: #000;
     }
 
     .hero-gif-placeholder {
