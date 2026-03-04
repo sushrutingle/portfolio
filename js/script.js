@@ -190,3 +190,32 @@ window.addEventListener('scroll', () => {
     ticking = true;
   }
 });
+
+// Reverse video loop for seamless playback
+const heroVideo = document.querySelector('.hero-video');
+if (heroVideo) {
+  heroVideo.playbackRate = 0.5;
+  let isReversing = false;
+  let reverseId = null;
+  
+  heroVideo.addEventListener('ended', () => {
+    if (!isReversing) {
+      isReversing = true;
+      heroVideo.pause();
+      
+      function reverseFrame() {
+        if (heroVideo.currentTime > 0) {
+          heroVideo.currentTime -= 0.033;
+          reverseId = requestAnimationFrame(reverseFrame);
+        } else {
+          isReversing = false;
+          heroVideo.currentTime = 0;
+          cancelAnimationFrame(reverseId);
+          heroVideo.playbackRate = 0.5;
+          heroVideo.play();
+        }
+      }
+      reverseFrame();
+    }
+  });
+}

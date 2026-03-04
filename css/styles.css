@@ -546,6 +546,12 @@
       object-fit: cover;
     }
 
+    .hero-gif video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
     .hero-gif-placeholder {
       color: var(--text-tertiary);
       font-size: 0.875rem;
