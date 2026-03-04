@@ -194,7 +194,10 @@ window.addEventListener('scroll', () => {
 // Reverse video loop for seamless playback
 const heroVideo = document.querySelector('.hero-video');
 if (heroVideo) {
-  heroVideo.playbackRate = 0.5;
+  heroVideo.addEventListener('canplay', () => {
+    heroVideo.playbackRate = 0.5;
+  });
+  
   let isReversing = false;
   let reverseId = null;
   
