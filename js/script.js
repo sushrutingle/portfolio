@@ -198,6 +198,8 @@ if (heroVideo) {
     heroVideo.playbackRate = 0.5;
   });
   
+  heroVideo.play().catch(() => {});
+  
   let isReversing = false;
   let reverseId = null;
   
@@ -221,4 +223,8 @@ if (heroVideo) {
       reverseFrame();
     }
   });
+  
+  document.addEventListener('touchstart', function() {
+    heroVideo.play().catch(() => {});
+  }, { once: true });
 }
