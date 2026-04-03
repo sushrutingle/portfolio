@@ -1,6 +1,6 @@
 # Sushrut Ingle Portfolio
 
-A premium, modern, black-and-white personal portfolio website built with pure HTML, CSS, and JavaScript.
+A modern, black-and-white personal portfolio website that I built with pure HTML, CSS, and JavaScript.
 
 ## Tech Stack
 
@@ -41,7 +41,7 @@ A premium, modern, black-and-white personal portfolio website built with pure HT
 
 ## License
 
-MIT License - feel free to use this portfolio as a template for your own.
+MIT License - feel free to use this portfolio as a template for your own or not.
 
 ## Contact
 
