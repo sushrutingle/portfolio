@@ -46,5 +46,5 @@ MIT License - feel free to use this portfolio as a template for your own or not.
 ## Contact
 
 - Email: sushrutingle@gmail.com
-- LinkedIn: https://linkedin.com
-- GitHub: https://github.com
+- LinkedIn: https://linkedin.com/in/sushrut-ingle
+- GitHub: https://github.com/sushrutingle
